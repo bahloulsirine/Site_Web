@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="images/logo.png"  >
+	<title>Codez Avec Nous - Accueil</title>
+	<meta charset="utf-8">
+		<link href="css/js.css" rel="stylesheet" >
+</head>
+<body>
+<header>
+	<p class="ff"><strong>Ala Nouri&&Sirine Bahloul
+		<br>Prepa A2-03</strong></p>
+<img src="./img/design2.png" class="ss">
+<img src="./img/logo.png" class="ss">
+</header>
+<nav><ul id="menu">
+		<li class="current"><a href="index 1.html">Accueil</a></li>
+		<li><a href="html.html">HTML</a></li>
+		<li><a href="css.html">CSS</a></li>
+		<li><a href="java script.html">JAVA SCRIPT</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		
+	</ul></nav>
+	<h5 id="haut"> <a href="#bas">  aller au bas de la page </a> </h5>	
+
+	<section id="introductionj">
+		<article>
+		<h2>Introduction</h2>
+		<iframe width="697" height="392" src="https://www.youtube.com/embed/02Xs2ySaXcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<p>Pour définir ce qu’est le JavaScript et le situer par rapport aux autres langages, et donc pour comprendre les intérêts et usages du JavaScript il faut savoir que :
+
+<h4> <a href="#1">*Le JavaScript est un langage dynamique </a></h4>
+<h4> <a href="#2">*Le JavaScript est un langage principalement côté client </a></h4>
+<h4> <a href="#3">*Le JavaScript est un langage interprété</a></h4> 
+<h4> <a href="#4">*Le JavaScript est un langage orienté objet</a></h4>
+</p>
+<h3 id="1">Le JavaScript, un langage dynamique</h3>
+<p> Le JavaScript est un langage dynamique, c’est-à-dire un langage qui va nous permettre de générer du contenu dynamique pour nos pages web.<br/>
+	On oppose généralement les langages « dynamiques » aux langages « statiques » comme le HTML et le CSS. Illustrons les différences d’utilisation entre ces types de langage en discutant des possibilités du HTML, du CSS et du JavaScript.<br/>
+	Une page statique est une page dont le contenu est le même pour tout le monde, à tout moment. En effet ni le HTML ni le CSS ne nous permettent de créer des contenus qui vont se mettre à jour par eux-mêmes. Le CSS, avec les animations, nous permet de créer des styles pseudo-dynamiques mais tout de même prédéfinis.<br/>
+C’est là où le JavaScript entre en jeu : ce langage va nous permettre de manipuler des contenus HTML ou des styles CSS et de les modifier en fonction de divers évènements ou variables. Un évènement peut être par exemple un clic d’un utilisateur à un certain endroit de la page tandis qu’une variable peut être l’heure de la journée.
+</p>
+<h3 id="2">Le JavaScript, un langage (principalement) côté client</h3>
+<p>
+	La catégorisation langages statiques / langage dynamique est une première façon de classer les différents langages de programmation.
+<br/>On peut également classer les différents langages selon l’endroit où ils vont s’exécuter : soit côté client, soit côté serveur.
+<br/>Pour comprendre ce que sont les langages « côté client » et « côté serveur », il convient avant tout de comprendre ce qu’est un client et ce qu’est un serveur et pour cela il faut savoir ce qu’est un site.
+<br/>Un<strong> « site »</strong> est un ensemble de ressources et de fichiers liés entre eux. Pour que notre site soit accessible sur le web pour tous, on va l’héberger sur un serveur, c’est-à-dire envoyer l’ensemble de nos fichiers sur le serveur et on va également acheter un nom de domaine qui va servir à identifier notre site.
+<br/>Un<strong> « serveur »</strong> est une sorte de super ordinateur, constamment accessible et connectés aux autres serveurs (formant ainsi un réseau qu’on appelle le web) et qui va héberger les fichiers constituant un (ou plusieurs) site(s) web et le(s) « servir » sur demande du client.
+<br/>Un langage « côté client » ou « client side » est un langage qui va être exécuté dans le navigateur des utilisateurs qui demandent la page. On peut également appeler ces langages des langages « web » puisqu’ils sont principalement utilisés dans un contexte web.
+<br/>Il existe aujourd’hui 3 langages côté client incontournables qui sont le HTML, le CSS et le JavaScript.
+<br/><strong>La chose importante à retenir ici est que le JavaScript est un langage principalement utilisé côté client, mais qui va également pouvoir s’utiliser côté serveur à condition qu’on mette en place un environnement favorable (en utilisant Node.js par exemple).</strong>
+</p>
+<h3 id="3">Le JavaScript, un langage interprété</h3>
+<p>On peut encore séparer les langages selon qu’ils puissent être exécutés directement (on parlera alors de langages interprétés) ou qu’il faille les transformer en une autre forme pour pouvoir les exécuter (on parlera alors le langages compilés).
+<br/>Le JavaScript est un langage interprété. Cela signifie qu’il va pouvoir être exécuté directement sous réserve qu’on possède le logiciel interpréteur. Pas de panique ici : tous les navigateurs connus possèdent leur interpréteur JavaScript.
+</p>
+<h3 id="4">Le JavaScript, un langage orienté objet</h3>
+<p>Finalement, le JavaScript est un langage orienté objet. Il est trop tôt selon moi pour vous expliquer ce que ça signifie ; nous reparlerons de cela dans la partie consacrée aux objets.</p>
+</article></section>
+<section id="placecode">
+<article>
+<h2>Où se place le code JavaScript ?</h2>
+<p>
+On va pouvoir placer du code JavaScript à trois endroits différents :
+<h4> <a href="#aa">*Directement dans la balise ouvrante d’un élément HTML </a></h4>
+<h4> <a href="#bb">*Dans un élément script, au sein d’une page HTML </a></h4>
+<h4> <a href="#cc">*Dans un fichier séparé contenant exclusivement du JavaScript et portant l’extension</a></h4> 
+</p>
+<h3 id="aa">Placer le code JavaScript dans la balise ouvrante d’un élément HTML</h3>
+<p>
+	Il est possible que vous rencontriez encore aujourd’hui du code JavaScript placé directement dans la balise ouvrante d’éléments HTML.
+	<br/>Ce type de construction était fréquent à l’époque notamment pour prendre en charge des évènements comme par exemple un clic.
+	<br/>Regardez plutôt l’exemple ci-dessous :
+	<br/><img id="imgaa" src="./img/aa1.png"> 
+	<br/><img id="imgaa" src="./img/aa2.png"> 
+    <br/>Ici, on crée deux boutons en HTML et on place nos codes JavaScript à l’intérieur d’attributs onclick. Le code à l’intérieur des attributs va s’exécuter dès qu’on va cliquer sur le bouton correspondant.
+</p>
+<h3 id="bb">Placer le code JavaScript dans un élément script, au sein d’une page HTML</h3>
+<p>
+	On va également pouvoir placer notre code JavaScript dans un élément script qui est l’élément utilisé pour indiquer qu’on code en JavaScript.
+	<br/>On va pouvoir placer notre élément script n’importe où dans notre page HTML, aussi bien dans l’élément head qu’au sein de l’élément body.
+	<br/>De plus, on va pouvoir indiquer plusieurs éléments script dans une page HTML pour placer plusieurs bouts de code JavaScript à différents endroits de la page.
+	<br/>Regardez plutôt l’exemple ci-dessous. Ce code produit le même résultat que le précédent :
+	<br/><img id="imgbb" src="./img/bb.png"> 
+	<br/><img id="imgbb" src="./img/bb1.png"> 
+	<br/>Cette méthode est meilleure que la précédente mais n’est une nouvelle fois pas idéalement celle que nous allons utiliser pour plusieurs raisons.
+	<br/>Tout d’abord, comme précédemment, la séparation des codes n’est pas optimale ici puisqu’on mélange du JavaScript et du HTML ce qui peut rendre l’ensemble confus et complexe à comprendre dans le cadre d’un gros projet.
+	<br/>De plus, si on souhaite utiliser les mêmes codes sur plusieurs pages, il faudra les copier-coller à chaque fois ce qui n’est vraiment pas efficient et ce qui est très mauvais pour la maintenabilité d’un site puisque si on doit changer une chose dans un code copié-collé dans 100 pages de notre site un jour, il faudra effectuer la modification dans chacune des pages.
+</p>
+<h3 id="cc">Placer le code JavaScript dans un fichier séparé</h3>
+<p>
+	Placer le code JavaScript dans un fichier séparé ne contenant que du code JavaScript est la méthode recommandée et que nous préférerons tant que possible.
+	<br/>Pour faire cela, nous allons devoir créer un nouveau fichier et l’enregistrer avec une extension .js. Ensuite, nous allons faire appel à notre fichier JavaScript depuis notre fichier HTML.
+	<br/>Pour cela, on va à nouveau utiliser un élément script mais nous n’allons cette fois-ci rien écrire à l’intérieur. A la place, on va plutôt ajouter un attribut src à notre élément script et lui passer en valeur l’adresse du fichier. Si votre fichier .js se situe dans le même dossier que votre fichier .html, il suffira d’indiquer le nom du fichier en valeur de l’attribut src.
+	<br/>	Le code ci-dessous produit à nouveau les mêmes résultats que précédemment. Ne vous préoccupez pas de l’attribut async pour le moment.
+	<br/><img id="imgbb" src="./img/cc.png"> 
+    <br/><img id="imgbb" src="./img/cc1.png"> 
+    <br/>Cette méthode sera notre méthode préférée puisqu’elle permet une excellente séparation du code et une maintenabilité optimale de celui-ci. En effet, si on veut insérer le code JavaScript contenu dans notre fichier dans 100 pages différentes, il suffira ici d’appeler ce fichier JavaScript dans les 100 pages. En cas de modification du code, il suffira alors de le modifier une fois dans le fichier JavaScript.
+</p>
+</article>
+</section> 
+<h5 id="bas"> <a href="#haut">allez au haut du page</a> </h5>
+	
+	<footer><img src="img/rs.png" usemap="#rs" /></footer>
+	<map name="rs">
+		<area shape="circle" coords="68,65,20" href="http://www.facebook.com" target="_BLANK" title ="cliquer ici pour aller a facebook" >
+		<area shape="circle" coords="127,65,20" href="http://www.twitte.com" target="_BLANK" title="cliquer ici pour aller a twitter">
+		<area shape="circle" coords="190,65,20" href="http://www.instagram.com" target="_BLANK" title="cliquer ici pour aller a instagram">
+		<area shape="circle" coords="251,65,20" href="http://www.youtube.com",target="_BLANK" title="cliquer ici pour aller a youtube">
+		<area shape="circle" coords="315,65,20" href="http://www.linkedin.com" target="_BLANK" title="cliquer ici pour aller a linkedin">
+																
+	</map>
+	
+</body>
+</html> 

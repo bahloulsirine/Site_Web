@@ -1,0 +1,95 @@
+body
+{background-color: rgb(206,203,140);
+    margin-left: 120px;
+   font-family:"Comic Sans MS", "Trebuchet MS", Georgia, serif;
+}
+.ff{ animation: 3s 4s alternate slide;
+}
+.ss{animation: 3s 4s alternate sliden;}
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    width:150px;
+    height: 25px;
+    background-color: beige;
+    padding: 7px 7px 7px 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 3px 3px grey ;
+    text-align:center;
+    font-family:"Arial Black";
+    animation: 3s 4s alternate slide;
+}
+@keyframes slide{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+}
+#menu li a{
+    text-decoration: none;
+    color: maroon;
+    font-weight: bold; 
+    
+}
+#menu li:hover{
+    background-color: grey;
+   text-decoration: underline;
+    color: maroon;
+ transform: rotate(10deg);
+}
+h5:hover{
+    text-transform: uppercase;
+}
+#introductionj h2{
+    text-decoration: underline;
+    color: #CC7559;
+    text-transform: uppercase;
+    font-family:"Arial Black";
+    animation: 3s 4s alternate sliden; 
+}
+
+#placecode h2{
+    text-decoration: underline;
+    color: #CC7559;
+    text-transform: uppercase;
+    font-family:"Arial Black";
+    animation: 3s 4s alternate sliden;
+}
+@keyframes sliden{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+}
+
+#introductionj h4 a{
+    text-decoration: none;
+    color: black;
+}
+#introductionj h4 a:hover{
+    text-decoration: underline;
+    color: olive;
+    font-size: large; 
+}
+#placecode h4 a{
+    text-decoration: none;
+    color: black;
+
+}
+#placecode h4 a:hover{
+    text-decoration: underline;
+    color: olive;
+    font-size: large; 
+}
+#introductionj h3{
+    color: rgb(64,128,128);
+    font-family:"Arial";
+}
+#placecode h3{
+    color: rgb(64,128,128);
+    font-family:"Arial";
+}
+#placecode img{
+    float: center;
+}
